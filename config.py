@@ -1,0 +1,23 @@
+# Folder Settings
+INPUT_FOLDER = "Input"
+OUTPUT_FOLDER = "Output"
+
+# Gap Detection
+WHITE_THRESHOLD = 245
+BLACK_THRESHOLD = 15
+GAP_COVERAGE = 0.98
+MIN_GAP_HEIGHT = 35
+
+# Panel Rules
+MIN_PANEL_HEIGHT = 250
+MAX_BLACK_RATIO = 0.90
+
+# Output
+OUTPUT_FORMAT = "webp"
+WEBP_QUALITY = 100
+
+# Future Features
+AUTO_TRIM = True
+MERGE_SMALL_PANELS = True
+REMOVE_TRANSITIONS = False
+DEBUG = False
